@@ -14,9 +14,13 @@ export default function Navbar() {
       </div>
 
       <ul className="menu">
-        <li>Matches</li>
-        <li onClick={goToGroups}>Groups</li>
-        <li>Tableau</li>
+        <li>
+       <a href="#matches">Matches</a>
+      </li>
+      <li onClick={goToGroups}>Groups</li>
+        <li>
+       <a href="#stadiums" target="_black">Stadiums</a>
+      </li>
       
       </ul>
     </nav>
