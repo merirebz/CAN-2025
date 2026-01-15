@@ -1,0 +1,56 @@
+
+.groups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 in one line */
+  gap: 30px;
+  padding: 60px;
+}
+
+@media (max-width: 1024px) {
+  .groups {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .groups {
+    grid-template-columns: 1fr;
+  }
+}
+
+.group-card {
+  background: white;
+  color: #070707;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.group-card h3 {
+  background: rgb(24, 77, 43);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.team-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-left img {
+  width: 28px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+
