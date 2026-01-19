@@ -1,6 +1,13 @@
-.matches-section {
+/* .matches-section {
   background: #1f4d2b;
   padding: 80px 60px;
+}
+.score {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ff3c00;
 }
 
 .section-title {
@@ -62,4 +69,109 @@
   margin-top: 15px;
   font-size: 14px;
   color: #666;
+} */
+
+
+
+
+.matches-section {
+  background: #1f4d2b;
+  padding: 80px 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-title {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* Slider container */
+.matches-slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+.matches-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 20s linear infinite; /* continuous scroll */
+}
+
+/* Match card */
+.match-card {
+  min-width: 250px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+}
+
+.match-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #1f4d2b;
+  margin-bottom: 15px;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team {
+  text-align: center;
+}
+
+.team img {
+  width: 48px;
+  height: 32px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.team p {
+  font-weight: 600;
+}
+
+.vs {
+  font-weight: bold;
+  color: #ff3c00;
+}
+
+.score {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ff3c00;
+}
+
+.stadium {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Keyframes for scrolling */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .match-card {
+    min-width: 200px;
+  }
 }
