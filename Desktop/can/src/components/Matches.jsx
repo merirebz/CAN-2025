@@ -11,8 +11,10 @@ import zimbabwe from "../components/flags/Zimbabwe.png";
 
 export default function Matches() {
   const matches = [
-    { date: "21 Déc", time: "20:00", home: "Maroc", away: "Comores", score: "2-0", stadium: "S.Moulay Abdellah RABAT", homeFlag: morocco, awayFlag: comores },
-    { date: "22 Déc", time: "15:00", home: "Mali", away: "Zambie", score: "1-1", stadium: "S.Mohamed V Casablanca", homeFlag: mali, awayFlag: zambia },
+    { date: "21 Déc", time: "20:00", home: "Maroc", away: "Comores", score: "2-0",
+     stadium: "S.Moulay Abdellah RABAT", homeFlag: morocco, awayFlag: comores },
+    { date: "22 Déc", time: "15:00", home: "Mali", away: "Zambie", score: "1-1",
+     stadium: "S.Mohamed V Casablanca", homeFlag: mali, awayFlag: zambia },
     { date: "26 Déc", time: "18:30", home: "Zambie", away: "Comores", score: "0-0", stadium: "S.Moulay Abdellah RABAT", homeFlag: zambia, awayFlag: comores },
     { date: "26 Déc", time: "21:00", home: "Maroc", away: "Mali", score: "1-1", stadium: "S.Moulay Abdellah RABAT", homeFlag: morocco, awayFlag: mali },
     { date: "29 Déc", time: "20:00", home: "Zambie", away: "Maroc", score: "0-3", stadium: "S.Moulay Abdellah RABAT", homeFlag: zambia, awayFlag: morocco },
