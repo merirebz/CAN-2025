@@ -9,6 +9,16 @@ import egypt from "../components/flags/Egypt.png";
 import southAfrica from "../components/flags/South Africa.png";
 import zimbabwe from "../components/flags/Zimbabwe.png";
 
+
+// import senegal from "../components/flags/sen.png";
+// import mali from "../components/flags/mali.png";
+// import comores from "../components/flags/Cameroon.png";
+// import zambia from "../components/flags/zambia.png";
+// import angola from "../components/flags/angola.png";
+// import egypt from "../components/flags/Egypt.png";
+// import southAfrica from "../components/flags/South Africa.png";
+// import zimbabwe from "../components/flags/Zimbabwe.png";
+
 export default function Matches() {
   const matches = [
     { date: "21 Déc", time: "20:00", home: "Maroc", away: "Comores", score: "2-0",
