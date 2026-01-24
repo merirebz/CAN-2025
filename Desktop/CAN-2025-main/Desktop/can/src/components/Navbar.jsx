@@ -19,7 +19,7 @@ export default function Navbar() {
       </li>
       <li onClick={goToGroups}>Groups</li>
         <li>
-       <a href="#stadiums" target="_black">Stadiums</a>
+       <a href="#stadiums" >Stadiums</a>
       </li>
       
       </ul>
