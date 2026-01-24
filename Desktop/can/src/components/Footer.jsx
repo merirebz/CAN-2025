@@ -15,9 +15,12 @@ export default function Footer() {
              <li>
            <a href="#matches">Matches</a>
            </li>
-           
-            <li> <a href="#groups">Groups</a></li>
-            
+              <li>
+              <a href="#groups">Groups</a>
+            </li>
+            <li>
+               <a href="#stadiums">Stadiums</a>
+              </li>
           </ul>
         </div>
         <div className="footer-right">
