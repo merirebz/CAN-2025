@@ -10,10 +10,11 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Matches /> 
-      <Stadiums/>
       <Groups />
-     
+      <Stadiums/>
+      <Matches /> 
+      
+      
       <Footer />
    
     
